@@ -24,5 +24,10 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+
+        private void btnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "哈咯~~你好!"; 
+        }
     }
 }
